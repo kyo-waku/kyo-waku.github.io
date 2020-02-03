@@ -124,6 +124,9 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p> kyowaku.dev (@gmail.com) </p>
+          <a rel="ar" href="../images/kyowaku.usdz">
+            <img src="../images/kyowakulogo.png" />
+          </a>
           <ul className="icons">
             <li>
               <a
