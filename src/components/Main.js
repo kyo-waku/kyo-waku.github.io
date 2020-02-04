@@ -4,6 +4,7 @@ import siribal from '../images/siribal.png'
 import kyowaku from '../images/kyowakulogo.png'
 import pic03 from '../images/pic03.jpg'
 
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -124,8 +125,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p> kyowaku.dev (@gmail.com) </p>
-          <a rel="ar" href="../images/kyowaku.usdz">
-            <img src="../images/kyowakulogo.png" />
+          <a rel="ar" href="static/kyowaku.usdz">
+            <span className="image main">
+              <img src={kyowaku} />
+            </span>
           </a>
           <ul className="icons">
             <li>
