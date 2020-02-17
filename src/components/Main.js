@@ -65,12 +65,13 @@ class Main extends React.Component {
           </p>
 
           <h2 className="major">Member</h2>
-          <h3>やまもと</h3>
+          <h3>しゅうへい</h3>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Introduction.
+            きょうわくの船頭<br />
+            たぶんいちばんワクワクしている人
           </p>
           <ul className="icons">
             <li>
@@ -80,21 +81,23 @@ class Main extends React.Component {
             </li>
           </ul>
 
-          <h3>ごしま</h3>
+          <h3>すすむ</h3>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Introduction.
+            きょうわくのブレーン<br />
+            荒くれ者達を冷静に導くマザー
           </p>
 
 
-          <h3>すぎもと</h3>
+          <h3>しんじ</h3>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Introduction.
+            きょうわくの環境整えマン<br />
+            ワクワクしているのかニヤニヤしているのかわからない
           </p>
           <ul className="icons">
             <li>
