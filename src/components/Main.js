@@ -3,7 +3,7 @@ import React from 'react'
 import siribal from '../images/siribal.png'
 import kyowaku from '../images/kyowakulogo.png'
 import pic03 from '../images/pic03.jpg'
-
+import sgmtsnj from '../images/sgmtsnj.png'
 
 class Main extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <h3> 1. Serious Balloon</h3>
+          <h3> Serious Balloon</h3>
           <span className="image main">
             <img src={siribal} alt="" />
           </span>
@@ -65,7 +65,7 @@ class Main extends React.Component {
           </p>
 
           <h2 className="major">Member</h2>
-          <h3>しゅうへい</h3>
+          <h2>しゅうへい</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -81,7 +81,7 @@ class Main extends React.Component {
             </li>
           </ul>
 
-          <h3>すすむ</h3>
+          <h2>すすむ</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -91,9 +91,9 @@ class Main extends React.Component {
           </p>
 
 
-          <h3>しんじ</h3>
+          <h2>しんじ</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={sgmtsnj} alt="" />
           </span>
           <p>
             きょうわくの環境整えマン<br />
@@ -128,11 +128,9 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p> kyowaku.dev (@gmail.com) </p>
-          <a rel="ar" href="static/kyowaku.usdz">
-            <span className="image main">
-              <img src={kyowaku} />
-            </span>
-          </a>
+          <span className="image main">
+            <img src={kyowaku} />
+          </span>
           <ul className="icons">
             <li>
               <a
