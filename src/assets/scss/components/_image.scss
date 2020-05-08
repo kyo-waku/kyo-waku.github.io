@@ -67,6 +67,16 @@
 			}
 		}
 
+		&.small {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 10%;
+
+			img {
+				width: 100%;
+			}
+		}
+
 		@include breakpoint(small) {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;
