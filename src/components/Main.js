@@ -3,7 +3,8 @@ import React from 'react'
 import siribal from '../images/siribal.png'
 import kyowaku from '../images/kyowakulogo.png'
 import pic03 from '../images/pic03.jpg'
-import sgmtsnj from '../images/sgmtsnj.png'
+import shinji from '../images/shinji.jpg'
+import shuhei from '../images/shuhei.jpg'
 
 class Main extends React.Component {
   render() {
@@ -30,15 +31,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <h3> Serious Balloon</h3>
           <span className="image main">
             <img src={siribal} alt="" />
           </span>
+          <h3>SERIOUS BALLOON</h3>
           <p>
-            Serious Balloon は拡張現実世界に現れるバルーンを撃ち落とす、爽快シューティングゲームです。
+            拡張現実世界に浮かぶバルーンを撃ち落とす、爽快なシューティングゲームです。
+            AR技術を応用した世界で初めて（かもしれない）シューティングゲームです。
+            敵の攻撃を避けるには、あなた自身が動くしかありません。
+            椅子にじっとしていてはハイスコアは狙えませんよ。
           </p>
-          <p>Technologies : Unity3D, ARKit2, Firebase </p>
-          <h3>2. Comming Soon...</h3>
+          <h3>KEY TECHNOLOGIES</h3>
+          <p>Unity3D, ARKit2, Firebase</p>
           {close}
         </article>
 
@@ -50,9 +54,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={kyowaku} alt="" />
-          </span>
           <p>
             KYO-waku (きょうわく) は京都を拠点に活動するエンジニアチームです
           </p>
@@ -63,11 +64,11 @@ class Main extends React.Component {
             そんな世の中に ちょっとしたワクワクをお届けしたいという思いで
             私たちは活動しています。
           </p>
-
+          <br/><br/><br/>
           <h2 className="major">Member</h2>
-          <h2>しゅうへい</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
+          <h3>しゅうへい</h3>
+          <span className="image left">
+            <img src={shuhei} alt="" />
           </span>
           <p>
             きょうわくの船頭<br />
@@ -80,20 +81,27 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
-
-          <h2>すすむ</h2>
-          <span className="image main">
+          <br/><br/><br/>
+          <h3>すすむ</h3>
+          <span className="image left">
+            <img src={pic03} alt="" />
             <img src={pic03} alt="" />
           </span>
           <p>
             きょうわくのブレーン<br />
             荒くれ者達を冷静に導くマザー
           </p>
-
-
-          <h2>しんじ</h2>
-          <span className="image main">
-            <img src={sgmtsnj} alt="" />
+          <ul className="icons">
+            <li>
+              <a href="/404" className="icon fa-twitter">
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+          </ul>
+          <br/><br/><br/>
+          <h3>しんじ</h3>
+          <span className="image left">
+            <img src={shinji} alt="" />
           </span>
           <p>
             きょうわくの環境整えマン<br />
