@@ -3,8 +3,10 @@ import React from 'react'
 import siribal from '../images/siribal.png'
 import kyowaku from '../images/kyowakulogo.png'
 import pic03 from '../images/pic03.jpg'
-import shinji from '../images/shinji.jpg'
-import shuhei from '../images/shuhei.jpg'
+import shinji from '../images/shinji_icon.jpg'
+import shuhei from '../images/shuhei_icon.jpg'
+import susumu from '../images/susumu_icon.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -84,8 +86,7 @@ class Main extends React.Component {
           <br/><br/><br/>
           <h3>すすむ</h3>
           <span className="image left">
-            <img src={pic03} alt="" />
-            <img src={pic03} alt="" />
+            <img src={susumu} alt="" />
           </span>
           <p>
             きょうわくのブレーン<br />
