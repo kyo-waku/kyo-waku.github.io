@@ -37,6 +37,7 @@ class Main extends React.Component {
             <img src={siribal} alt="" />
           </span>
           <h3>SERIOUS BALLOON</h3>
+          <a href="https://t.co/99clOvcwcF?amp=1">App Store</a>
           <p>
             拡張現実世界に浮かぶバルーンを撃ち落とす、爽快なシューティングゲームです。
             AR技術を応用した世界で初めて（かもしれない）シューティングゲームです。
